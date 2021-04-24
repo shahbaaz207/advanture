@@ -1,0 +1,44 @@
+.faq{
+    margin: 3rem 4%;
+}
+.faq__main{
+    display: flex;
+    justify-content: space-evenly !important;
+
+}
+
+.WithStyles\(ForwardRef\(AccordionSummary\)\)-root-3 {
+    min-height: 56px;
+    /* border-bottom: 1px solid rgba(0, 0, 0, .125); */
+    margin: 10px 0!important;
+    background-color: rgba(0, 0, 0, .03);
+}
+
+.WithStyles\(ForwardRef\(Accordion\)\)-root-1 {
+    border: 0px solid rgba(0, 0, 0, .125) !important;
+    box-shadow: none;
+}
+
+.WithStyles\(ForwardRef\(AccordionSummary\)\)-root-3 {
+    min-height: 56px;
+    border-bottom: none !important;
+    margin-bottom: -1px;
+    background-color: rgba(0, 0, 0, .03);
+}
+
+.faq__icon{
+    margin-right: .5rem !important;
+}
+
+.faq__info{
+    text-align: center;
+    margin-bottom: 1rem;
+}
+
+
+@media (min-width:700px) {
+    
+    .faq{
+        margin: 3rem 25%;
+    }
+}

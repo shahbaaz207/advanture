@@ -1,0 +1,23 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+:root {
+  --primary: #EEBF00;
+  --secondary: #232B38;
+  --ternary: #6C6C6C;
+  --danger: #FE4545;
+  --pure: #FEFEFE;
+  --light: #F0F0F0;
+  --heaven: #FFFFFF;
+  --footer: #2D333F;
+}
+
+::-webkit-scrollbar{
+  display: none;
+}
