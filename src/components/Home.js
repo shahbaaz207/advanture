@@ -1,6 +1,6 @@
 import React from "react";
 import "../styles/Home.css";
-
+import img from "./ad.jpg";
 function Home() {
   return (
     <>
@@ -28,12 +28,8 @@ function Home() {
           <button>More</button>
         </div>
         <div className="home_box">
-          <img
-            src="https://lh3.googleusercontent.com/proxy/hmPH9Soye-tAW0u5OJh11p5JNSoerfGeYZgXPdbQnYsyLJgMRo7MSLyifalcenrFrAL-jLdZ1GGGAkrHoi4Fl5VnKQoJBPuveGXu4wMam4htqelD4mUTrwBe6Z8jszyFxZX-ZA"
-            alt=""
-            loading="lazy"
-          />
-          <h4>News & Events</h4>
+          <img src={img} alt="" loading="lazy" />
+          <h4>News and Events</h4>
           <p>
             Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse
             malesuada lacus ex, sit amet blandit leo lobortis eget.
@@ -112,48 +108,46 @@ function Home() {
           </div>
         </div>
       </div>
-   
+
       <div className="home_adventure">
-        <h2>Adventures  Places</h2>
+        <h2>Adventures Places</h2>
         <div className="home_adventureContainer">
           <div className="home_adventureBox">
             <div className="home_adventureImg">
-            <img
-            src="https://www.theprevalentindia.com/wp-content/uploads/2020/11/goa.jpg"
-            alt=""
-            loading="lazy"
-          />
-          <div className="home_adventureInfo">
-            <h2>Goa</h2>
-          </div>
+              <img
+                src="https://www.theprevalentindia.com/wp-content/uploads/2020/11/goa.jpg"
+                alt=""
+                loading="lazy"
+              />
+              <div className="home_adventureInfo">
+                <h2>Goa</h2>
+              </div>
             </div>
           </div>
           <div className="home_adventureBox">
             <div className="home_adventureImg">
-            <img
-            src="https://i.ytimg.com/vi/LttpKeWNx_E/maxresdefault.jpg"
-            alt=""
-            loading="lazy"
-          />
-          <div className="home_adventureInfo">
-            <h2>Andman & Nicobar</h2>
-          </div>
+              <img
+                src="https://i.ytimg.com/vi/LttpKeWNx_E/maxresdefault.jpg"
+                alt=""
+                loading="lazy"
+              />
+              <div className="home_adventureInfo">
+                <h2>Andman & Nicobar</h2>
+              </div>
             </div>
           </div>
           <div className="home_adventureBox">
             <div className="home_adventureImg">
-            <img
-            src="https://www.oyorooms.com/travel-guide/wp-content/uploads/2019/04/Auroville-Beach.jpg"
-            alt=""
-            loading="lazy"
-          />
-          <div className="home_adventureInfo">
-            <h2>Podicherry</h2>
-          </div>
+              <img
+                src="https://www.oyorooms.com/travel-guide/wp-content/uploads/2019/04/Auroville-Beach.jpg"
+                alt=""
+                loading="lazy"
+              />
+              <div className="home_adventureInfo">
+                <h2>Podicherry</h2>
+              </div>
             </div>
           </div>
-                              
-                              
         </div>
       </div>
     </>
